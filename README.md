@@ -2,6 +2,8 @@
 
 ## Build
 For more detailed information, head out to the [aws official documentation.](https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html)
+A pre-complied function is provided in the releases of this repository. Get the main.zip file and skip to the deploy section.
+
 ### macOS and Linux
 1. Compile the executable `GOOS=linux go build out/main.go`
 2. Create a deployment package by packaging the executable in a .zip file `zip out/function.zip out/main`
